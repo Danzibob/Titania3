@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "/home/danzi/Rocketry/Avionics/Titania3/Titania3PCB/Symbols/New_Library.kicad_sym")(options "")(descr ""))
+)

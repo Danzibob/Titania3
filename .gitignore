@@ -1,0 +1,44 @@
+# Datasheets I'm not allowed to distribute
+hardware/Datasheets
+
+# jlc output files
+hardware/kicad_project/jlcpcb/
+
+# KiCad project local/user settings
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_sym-bak
+*.kicad_mod-bak
+*.bak
+
+# Autosave / rescue / lock files
+_autosave-*
+*.autosave
+*.sch-bak
+*.save
+*.kicad_pcb.lck
+*.lck
+
+# Netlist and intermediate outputs (if generated)
+*.net
+*.xml
+*.cmp
+
+# Fabrication / manufacturing exports (optional: ignore if regenerated)
+gerbers/
+*.gbr
+*.drl
+*.zip
+
+# Position / BOM outputs (optional: ignore if regenerated)
+pos/
+bom/
+*.csv
+*.pos
+
+# 3D/cache/temp
+__pycache__/
+*.step-bak
+*.tmp
