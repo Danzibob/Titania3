@@ -46,8 +46,6 @@ In flight, record u16 pressure with LSB = 2Pa.
 - While the sensor does measure this to silly precision, it's not gonna be as good of a reflection of the actual ambient air temperature
 - As such we want to use an altitude algorithm that doesn't rely on precise temperature
 
-<!-- At this point I got distracted and started emailing people asking how they calculate altitude -->
-
 **Potential Altitude algorithms**
 
 | Algorithm         | Needs High-Res T?  | Good for 10 km? | Rocket-Appropriate? |
@@ -56,3 +54,7 @@ In flight, record u16 pressure with LSB = 2Pa.
 | ISA Lapse         | No (launch T only) | Yes             | ⭐ Best balance      |
 | Full Hypsometric  | Yes                | Yes             | Usually overkill    |
 | Relative Pressure | No                 | Yes             | ⭐ Very robust       |
+
+---
+
+_At this point I got distracted and started emailing people asking how they calculate altitude_
