@@ -5,6 +5,9 @@ The project goal is to create a datalogger small and light enough for an 18mm A8
 An additional aim of this project is to run on a rechargable coin cell battery instead of the usual LiPo.
 This restriction heavily limits our component choices because of the low current provided by these coin cells (usually <15mA sustained).
 
+## Docs
+- [Components List](./hardware/components.md)
+
 ## Features
 - Logs barometric pressure, temperature, acceleration and rotation data
 - Up to 600Hz logging in bursts, 200Hz normal target
